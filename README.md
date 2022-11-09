@@ -29,13 +29,15 @@
 ### 4.2 证书 + 用户名/密码
 
 ```bash
-# curl --cacert ./ca/ca.crt -u name:passwd -X GET https://192.168.0.100:8080/user
+# curl --cacert /usr/local/ca/ca.crt -u name:passwd -X GET https://192.168.0.100:8080/user
 ```
 
 ### 4.3 忽略证书 + 用户名/密码
 
 ```bash
 # curl --insecure -u name:passwd -X GET https://192.168.0.100:8080/user
+
+# curl -k -u name:passwd -X GET https://192.168.0.100:8080/user
 ```
 
 ## 5 添加多个 header
