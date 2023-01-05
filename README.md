@@ -43,7 +43,7 @@
 ## 5 添加多个 header
 
 ```bash
-# curl -H "Content-type: application/json" -H 'header1-: header1' -H 'header-2: header2 -X POST http://192.168.0.100:8080/user -d '{"id":1,"array":[1,2]}'
+# curl -H "Content-type: application/json" -H 'header-1: header1' -H 'header-2: header2' -X POST http://192.168.0.100:8080/user -d '{"id":1,"array":[1,2]}'
 ```
 
 ## 6 格式化响应
