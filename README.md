@@ -68,3 +68,16 @@
 
 - -s, 不显示 curl 的统计信息
 
+## 7 保存
+
+使用 ```-o``` 保存到指定文件名（可以自定义本地文件名）：
+
+```bash
+# curl -o example.html http://www.example.com
+```
+
+使用 ```-O``` 使用远程文件名保存（注意，这个选项是大写字母O）：
+
+```bash
+# curl -O http://www.example.com/index.html
+```
